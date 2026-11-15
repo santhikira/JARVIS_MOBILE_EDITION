@@ -1,51 +1,69 @@
-DOCTYPE
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050b16">
 
-<meta charset="UTF-8">
+    <title>J.A.R.V.I.S | Mobile Edition</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>J.A.R.V.I.S</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header><h1>J.A.R.V.I.S</h1><p>MOBILE EDITION</p></header>
+    <header>
+        <h1>J.A.R.V.I.S</h1>
+        <p>MOBILE EDITION</p>
+    </header>
 
-<div class="core">
+    <div class="core">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="center"></div>
 
-<div class="ring r1"></div>
+        <p class="core-text">CORE ACTIVE</p>
+    </div>
 
-<div class="ring r2"></div>
+    <div class="status">
+        <h2>SYSTEM STATUS</h2>
 
-div class="center"></div>
+        <div class="row">
+            <span>AI CORE</span>
+            <b class="on">• ONLINE</b>
+        </div>
 
-<p class="core-text">CORE ACTIVE</p>
+        <div class="row">
+            <span>NETWORK</span>
+            <b class="on">• ONLINE</b>
+        </div>
 
-<div class="status">
+        <div class="row">
+            <span>VOICE</span>
+            <b class="off">○ LOCKED</b>
+        </div>
 
-<h2>SYSTEM STATUS</h2>
+        <div class="row">
+            <span>MEMORY</span>
+            <b class="off">○ LOCKED</b>
+        </div>
+    </div>
 
-="row"><span>AI CORE</span><b class="on">• ONLINE</b></div>
+    <div class="chat" id="chat"></div>
 
-<div class="row"><span>NETWORK</span><b class="on">• ONLINE</b></div>
+    <div class="input-area">
+        <input
+            type="text"
+            id="msg"
+            placeholder="Ask J.A.R.V.I.S..."
+            autocomplete="off"
+        >
 
-<div "row"><span>VOICE</span><b class="off">o LOCKED</b></div
+        <button id="send">SEND</button>
+    </div>
 
-<div class="row"><span>MEMORY</span><b class="off">o LOCKED</b></div>
+    <script src="script.js"></script>
 
-</div>
-
-lass="chat" id="chat"></div>
-
-<div class="input-area">
-
-<input id="msg" placeholder="Ask J.A.R.V.I.S..."> ">SEND</button>
-
-<script src="script.js"></script> </body>
-
+</body>
 </html>
